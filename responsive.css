@@ -1,0 +1,52 @@
+@media  screen and (max-width:780px) {
+    .banner-text h1 {
+        font-size: 44px;
+    }
+    .banner-btn a  {
+        display: block;
+        margin: 20px auto;
+    }
+    
+    .title-text h1 {
+        font-size: 35px;
+    }
+    .features {
+        flex-basis: 100%;
+    }
+    .features-img {
+        flex-basis: 100%;
+    }
+    .features-img img {
+        width: 100%;
+    }
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-desc p {
+        font-size: 12px;
+    }
+    hr {
+        margin: 5px auto;
+    }
+    .single-service:hover .service-desc {
+        bottom: 30% !important ;
+    }
+    .testimonial-col {
+        flex-basis: 100%;
+    }
+    .footer-left, .footer-right {
+        flex-basis: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer-img {
+        top: 25%;
+    }
+    .social-icons {
+        left: -10px;
+    }
+    .social-icons img {
+        width: 16px;
+    }
+}
